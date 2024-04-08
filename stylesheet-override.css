@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: bisque;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.inputbox {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: bisque;
+    padding: 1em;
+    flex-direction: column;
+    margin: auto;
+    width: 430px;
+}
+
+.outputbox {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: bisque;
+    padding: 1em;
+    flex-direction: column;
+    margin: auto;
+    width: 430px;
+}
+
+.devider {
+    margin: 20em 0 3em 0;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    color: bisque;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+}
