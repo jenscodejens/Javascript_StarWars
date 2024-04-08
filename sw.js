@@ -12,7 +12,6 @@ const request = async (url, params = {}, method = 'GET') => {
     return await response.json();
 };
 const get = (url, params) => request(url, params, 'GET');
-const post = (url, params) => request(url, params, 'POST');
 
 document.getElementById('swbutton').addEventListener('click', function () {
 
